@@ -12,10 +12,11 @@
 </head>
 
 <body>
-    <header class="bgimage">
+    <header class="bgimage hidden-xs">
         <div class="container"></div>
-        <h1 class="container">Headline</h1>
     </header>
+    <h1 class="container visible-xs">Welcome</h1>
+    <h2 class="visible-print"> You See This When Printing!</h2>
     <div class="container">
         <div class="row">
             <div class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-sm-4 col-md-4 col-sm-push-8">
@@ -68,13 +69,44 @@ for (int i =0; i<10; i++)
     <div class="container-fluid">
         <div class="row">
             <div class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-sm-4 col-md-4">
-                <h1>Headline</h1>
-                <p>Lorem Ipsum საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა. მისი ტექსტი არამარტო 5 საუკუნის მანძილზე შემორჩა, არამედ მან დღემდე, ელექტრონული ტიპოგრაფიის დრომდეც უცვლელად მოაღწია. განსაკუთრებული პოპულარობა მას 1960-იან წლებში გამოსულმა Letraset-ის ცნობილმა ტრაფარეტებმა მოუტანა, უფრო მოგვიანებით კი — Aldus PageMaker-ის ტიპის საგამომცემლო პროგრამებმა, რომლებშიც Lorem Ipsum-ის სხვადასხვა ვერსიები იყო ჩაშენებული.</p>
-
-                pre
+                <img src="images/1.jpg" class="img-responsive center-block img-rounded">
+                <h1>Tables</h1>
+                <table class="table table-bordered">
+                    <tr class="success">
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Age</th>
+                    </tr>
+                    <tr>
+                        <td>Eve</td>
+                        <td>Jackson</td>
+                        <td>94</td>
+                    </tr>
+                    <tr class="warning">
+                        <td>Jill</td>
+                        <td>Smith</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>Eve</td>
+                        <td>Jackson</td>
+                        <td>94</td>
+                    </tr>
+                    <tr class="active">
+                        <td>Eve</td>
+                        <td>Jackson</td>
+                        <td>94</td>
+                    </tr>
+                    <tr>
+                        <td>Eve</td>
+                        <td>Jackson</td>
+                        <td>94</td>
+                    </tr>
+                </table>
             </div>
             <div class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-sm-4 col-md-4">
-                <h1>Headline</h1>
+                <img src="images/2.jpg" class="img-responsive center-block img-circle img-thumbnail">
+                <h1>Long Code</h1>
                 <pre class="pre-scrollable">
                 	function randomstring(L){
     var s= '';
@@ -90,8 +122,15 @@ for (int i =0; i<10; i++)
                 </pre>
             </div>
             <div class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-sm-4 col-md-4">
-                <h1>Headline</h1>
-                <p>Lorem Ipsum საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა. მისი ტექსტი არამარტო 5 საუკუნის მანძილზე შემორჩა, არამედ მან დღემდე, ელექტრონული ტიპოგრაფიის დრომდეც უცვლელად მოაღწია. განსაკუთრებული პოპულარობა მას 1960-იან წლებში გამოსულმა Letraset-ის ცნობილმა ტრაფარეტებმა მოუტანა, უფრო მოგვიანებით კი — Aldus PageMaker-ის ტიპის საგამომცემლო პროგრამებმა, რომლებშიც Lorem Ipsum-ის სხვადასხვა ვერსიები იყო ჩაშენებული.</p>
+                <img src="images/3.jpg" class="img-responsive center-block img-rounded">
+                <h1>Buttons</h1>
+                <button type="button" class="btn btn-primary btn-lg">Large</button>
+                <button type="button" class="btn btn-default btn-xs"> Small</button>
+                <button type="button" class="btn btn-success">YES!</button>
+                <button type="button" class="btn btn-warning btn-block">WARNING!</button>
+                <button type="button" class="btn btn-danger btn-toolbar">Toolbar</button>
+                <button type="button" class="btn btn-default btn-group">group</button>
+                <button type="button" class="btn btn-warning btn-block active">Active!</button>
             </div>
         </div>
     </div>
