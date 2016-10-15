@@ -6,3 +6,12 @@
 	height: 200px;
 
 }
+
+.circle
+{
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	background-image: radial-gradient(45px 45px 45deg, circle cover, yellow 0%, orange 100%, red 95%);
+
+}
